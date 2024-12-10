@@ -1,6 +1,6 @@
 # Writefreely to Markdown
 
-The default writefreely export only embed metadata in files, which is hard to be used for other blogging software.
+The default [writefreely](https://writefreely.org/) export only embed metadata in files, which is hard to be used for other blogging software.
 
 This script converts writefreely exported JSON files into CommonMark based markdown
 

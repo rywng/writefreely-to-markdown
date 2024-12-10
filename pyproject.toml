@@ -6,6 +6,7 @@ authors = ["Ryan <ryan@alien.gov>"]
 readme = "README.md"
 license = "MIT"
 keywords = ["blogging", "blog", "json", "toml", "markdown"]
+homepage = "https://github.com/rywng/writefreely-to-markdown"
 
 [tool.poetry.dependencies]
 python = "^3.12"
