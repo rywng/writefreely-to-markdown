@@ -71,6 +71,8 @@ def write_json_as_markdown(json_obj, output_dir: str):
         os.mkdir(os.path.join(output_dir, collection["alias"]))
 
         write_posts(posts, output_dir, collection["alias"])
+
+    os.mkdir(os.path.join(output_dir, "draft_author"))
     write_posts(json_obj["posts"], output_dir, "draft_author")
 
 
